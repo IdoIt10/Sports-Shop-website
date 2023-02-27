@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="maser.Master.cs" Inherits="Project_Db.Design" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="UTF-8" />
+    <meta ID="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            left: 0px;
+            top: 3px;
+            height: 100px;
+            margin-top: 0px;
+        }
+        .auto-style2 {
+            left: -1px;
+            top: 0px;
+        }
+        .auto-style3 {
+            height: 266px;
+        }
+        .auto-style4 {
+            display: inline-block;
+            margin-right: 5px;
+            width: 50px;
+            height: 49px;
+        }
+        .auto-style5 {
+            width: 100%;
+            min-height: 460px;
+            background-color: #556E5B;
+            height: 483px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site ID -->
+		<div class="auto-style5">
+
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+                                   <center><img src="templatemo_539_simple_house/img/796329_preview_preview%20-%20Copy.png" height="500px" /></center> 
+				<div class="tm-header">
+                        <center>
+
+						<div class="auto-style1">
+
+
+							&nbsp;<div class="tm-site-text-box">
+								<h1 class="tm-site-title">SportShop</h1>
+								<h6 class="tm-site-description">from II Group
+                                    <br />
+                                    the only place to buy
+								</h6>
+                                <p class="tm-site-description">&nbsp;</p>
+                                <p class="tm-site-description">&nbsp;</p>
+                                <p class="tm-site-description">&nbsp;</p>
+                                <p class="tm-site-description">&nbsp;</p>
+							</div>
+						</div>
+						    <img src="templatemo_539_simple_house/img/796329_preview_preview.png" class="auto-style3" /></center>
+					<div class="row tm-header-inner">
+
+						<nav class="auto-style2">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li">
+
+
+							<img src="img/simple-house-logo.png" alt="Logo" class="auto-style4" /></li>
+								<li class="tm-nav-li"><a href="Home.aspx" class="tm-nav-link">Home</a></li>
+<%--								<li class="tm-nav-li"><a id="ManagerPageRef" runat="server" href="UserArea.aspx" class="tm-nav-link">Order</a></li>--%>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+			
+			
+
+            <br />
+
+
+            <form id="form2" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+			
+            <br />
+            <br />
+            <br />
+
+</body>
+</html>
